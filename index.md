@@ -27,7 +27,7 @@ Below are some examples showing the effective transmission over the diagonal of 
 ![](figures/sii_transmission.png)
 
 
-Comparing the two DSLR examples highlights the difference effect of increasing aperture offering better performance.  This is because the angle of incidence with a larger focal length is smaller.
+Comparing the two DSLR examples highlights the effects of increasing the focal length at a fixed f-ratio offers better performance in the form of higher transmission over a larger portion of the chip.  This is because the effective angle of incidence with a larger focal length is smaller.
  
 Likewise for the RASA comparison, the RASA 11 has better performance overall, helped in combination from the slightly slower focal ratio, and the longer focal length.  
 
