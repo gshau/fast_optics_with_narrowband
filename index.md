@@ -10,10 +10,14 @@ Assuming the peak transmission is right on the emission line, we can compute whe
 With the transmission curves, for selected f-ratios of f/2 to f/4.6, the maximum angle at the edge of the light cone shifts effective transmission off peak.
 ![test](figures/bandpass_shift.png)
 
-The calculations above have some limitations in that they're specific to the maximum cone angle and are calculated from the center of the sensor on the optical axis.  However in reality, there are photons arriving from angles from 0 degrees to the maximum, and the angle of incidence changes depending on the pixel location on the chip.  To account for this distribution of arriving incidence angles, the total effective transmission is integrated across the aperture.  There are some important aspects of this that will impact the total transmission:
+The calculations above have some limitations in that they're specific to the maximum cone angle and are calculated from the center of the sensor on the optical axis.  However in reality, there are photons arriving from angles from 0 degrees to the maximum, and the angle of incidence further changes depending on the pixel location on the chip.  To account for this distribution of arriving incidence angles, the total effective transmission can be integrated across the aperture.  There are some important aspects of this that will impact the total transmission:
 
-1. For telescopes with a central obstruction, the low incident angles are not suppressed, enhancing the overall effect
+1. For telescopes with a central obstruction, the high incident angles are more common, enhancing the overall effect
 2. The angle of incidence is often high in optical configurations with a large sensor and small aperture
+
+![](figures/angle_distribution.png)
+![](figures/angle_distribution_central_obstruction.png)
+
 
 Below are some examples showing the effective transmission over the diagonal of a full frame sensor.  There are four cases:
 1. 70mm focal length DSLR lens at f/2.8
@@ -21,13 +25,18 @@ Below are some examples showing the effective transmission over the diagonal of 
 1. RASA 8" (fl = 400mm, f/2)
 1. RASA 11" (fl = 620mm, f/2.2)
 
+## Chip view of effective narrowband transmission:
+![](figures/chip_view_oiii_3nm.png)
+![](figures/chip_view_ha_3nm.png)
+![](figures/chip_view_sii_3nm.png)
 
-![](figures/oiii_transmission.png)
-![](figures/ha_transmission.png)
-![](figures/sii_transmission.png)
 
+## Diagonal profiles of effective narrowband transmission:
+![](figures/oiii_central.png)
+![](figures/ha_central.png)
+![](figures/sii_central.png)
 
+## Discussion
 Comparing the two DSLR examples highlights the effects of increasing the focal length at a fixed f-ratio offers better performance in the form of higher transmission over a larger portion of the chip.  This is because the effective angle of incidence with a larger focal length is smaller.
  
 Likewise for the RASA comparison, the RASA 11 has better performance overall, helped in combination from the slightly slower focal ratio, and the longer focal length.  
-
