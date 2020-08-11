@@ -15,8 +15,6 @@ The calculations above have some limitations in that they're specific to the max
 1. For telescopes with a central obstruction, the high incident angles are more common, enhancing the overall effect
 2. The angle of incidence is often high in optical configurations with a large sensor and small aperture
 
-![](figures/angle_distribution.png)
-![](figures/angle_distribution_central_obstruction.png)
 
 
 Below are some examples showing the effective transmission over the diagonal of a full frame sensor.  There are four cases:
@@ -24,6 +22,13 @@ Below are some examples showing the effective transmission over the diagonal of 
 1. 200mm focal length DSLR lens at f/2.8
 1. RASA 8" (fl = 400mm, f/2)
 1. RASA 11" (fl = 620mm, f/2.2)
+
+## Incident angle distribution for a selection of optics on a full frame sensor
+![](figures/angle_distribution.png)
+
+## Incident angle distribution for an 8" f/2 scope with central obstruction (RASA8) and without to illustrate effect of the central obstruction.
+![](figures/angle_distribution_central_obstruction.png)
+
 
 ## Chip view of effective narrowband transmission:
 ![](figures/chip_view_oiii_3nm.png)
