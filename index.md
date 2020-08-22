@@ -26,6 +26,7 @@ Below are some examples showing the effective transmission over the diagonal of 
 1. RASA 8" (fl = 400mm, f/2)
 1. RASA 11" (fl = 620mm, f/2.2)
 
+
 ## Incident angle distribution for a selection of optics on a full frame sensor
 ![](figures/angle_distribution.png)
 
@@ -40,7 +41,7 @@ Below are some examples showing the effective transmission over the diagonal of 
 
 
 ## Diagonal profiles of effective narrowband transmission:
-The profile of effective transmission along the diagonal of the sensor is shown below.  Since the exact transmission profile of the filters can vary, I added a 0.1nm variation in the location of the transmission curves to show the effect on potential variability.  
+The profile of effective transmission along the diagonal of the sensor is shown below.  Since the exact transmission profile of the filters can vary, I added a 0.1nm variation in the location of the transmission curves to show the effect on potential variability.  The bands enclose 90% of that potential variation.
 
 ![](figures/oiii_central.png)
 ![](figures/ha_central.png)
